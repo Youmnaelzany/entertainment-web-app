@@ -4,5 +4,61 @@ import "@/styles/globals.css";
 ---
 
 <Layout title="Frontend Mentor | Entertainment web app">
-  <main class="pb-[15.625rem]"></main>
+  <header class="flex items-start gap-6 w-[23.8125rem] h-8 ml-[10.25rem] p-8">
+    <img src="/public/assets/icon-search.svg" alt="" class="" />
+    <form action="" class="">
+      <input
+        type="search"
+        name="search"
+        id="search"
+        placeholder="Search for movies or TV series"
+        class="placeholder:opacity-[0.4979] text-[#fff] text-2xl font-normal leading-normal bg-transparent outline-none border-none"
+      />
+    </form>
+  </header>
+  <nav
+    class="bg-[#161D2F] w-24 h-[60rem] ml-8 flex flex-col justify-between items-center rounded-[1.25rem] p-8"
+  >
+    <div class="flex flex-col gap-16 items-center">
+      <div class="">
+        <a href="/" class="">
+          <img src="/public/assets/logo.svg" alt="logo-icon" class="" />
+        </a>
+      </div>
+      <div class="flex flex-col gap-8 items-center">
+        <a href="/movies" class="">
+          <img
+            src="/public/assets/icon-nav-home.svg"
+            alt="movie-icon"
+            class=""
+          /></a
+        >
+        <a href="/movies" class="">
+          <img
+            src="/public/assets/icon-nav-movies.svg"
+            alt="movie-icon"
+            class=""
+          /></a
+        >
+        <a href="/movies" class="">
+          <img
+            src="/public/assets/icon-nav-tv-series.svg"
+            alt="tv-icon"
+            class=""
+          /></a
+        >
+        <a href="/movies" class="">
+          <img
+            src="/public/assets/icon-nav-bookmark.svg"
+            alt="tv-icon"
+            class=""
+          /></a
+        >
+      </div>
+    </div>
+    <div class="border-solid border rounded-full">
+      <img src="/public/assets/image-avatar.png" alt="" class="" />
+    </div>
+  </nav>
+  <main class=""></main>
 </Layout>
